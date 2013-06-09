@@ -92,6 +92,7 @@
   <project path="system/media" name="platform/system/media" revision="a8eea50f80327f15cb04bbdfee2d1cfcc4c3ce4a"/>
   <project path="system/netd" name="platform/system/netd" revision="3c903b555975fa59d6688a0a6417ac7512c202e7"/>
   <project path="system/vold" name="platform/system/vold" revision="3ad9072a5d6f6bda32123b367545649364e3c11d"/>
+  <project path="external/busybox" name="platform/external/busybox" remote="linaro" revision="2e461c8029a50d986dfe4ab07ae5a1834b5c40f0"/>
 
   <!-- Galaxy S2 things -->
   <project path="device/samsung/sc02c" name="android-device-sc02c" remote="neuralassembly" revision="master"/>
