@@ -10,16 +10,16 @@
   <default remote="QRD" revision="ics_master_qrd_101" sync-j="9"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="sola" revision="v1-train">
+  <project path="build" name="platform_build" remote="sola" revision="master">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
-  <project path="gaia" name="gaia" remote="sola" revision="master"/>
+  <project path="gaia" name="gaia" remote="sola" revision="v1-train"/>
   <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="gecko-18" />
   <project path="gonk-misc" name="gonk-misc" remote="sola" revision="v1-train"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project path="external/moztt" name="moztt" remote="sola" revision="v1-train"/>
+  <project path="external/moztt" name="moztt" remote="sola" revision="master"/>
   <project path="multilocale" name="multilocale" remote="sola" revision="master"/>
 
   <!-- Stock Android things -->
@@ -63,7 +63,7 @@
   <project name="platform/external/openssl" path="external/openssl" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/protobuf" path="external/protobuf" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/safe-iop" path="external/safe-iop" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="sola" revision="v1-train"/>
+  <project path="external/screencap-gonk" name="screencap-gonk" remote="sola" revision="master"/>
   <project name="platform/external/skia" path="external/skia" remote="caf" revision="refs/tags/M8960AAAAANLYA100715A"/>
   <project name="platform/external/sonivox" path="external/sonivox" remote="caf" revision="refs/tags/M8960AAAAANLYA1005304"/>
   <project name="platform/external/speex" path="external/speex" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
